@@ -1,0 +1,20 @@
+{
+  "extends": ["tslint:latest", "tslint-config-prettier", "tslint-plugin-prettier"],
+  "rules": {
+    "arrow-parens": false,
+    "curly": [true, "ignore-same-line"],
+    "interface-name": false,
+    "interface-over-type-literal": false,
+    "max-classes-per-file": [false],
+    "member-access": [false],
+    "no-unused-variable": [true],
+    "no-submodule-imports": [false],
+    "object-literal-sort-keys": false,
+    "prettier": [true, {
+      "printWidth": 100,
+      "singleQuote": true,
+      "semi": false,
+      "trailingComma": "all"
+    }]
+  }
+}
